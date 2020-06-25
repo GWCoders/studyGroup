@@ -1,0 +1,19 @@
+Package: studyGroup
+Version: 0.0.0.9000
+Title: Website for GWCoders
+Description: Content for studyGroup website.
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Imports:
+    yaml,
+    here,
+    tidyverse,
+    lubridate,
+    glue,
+    fs,
+    gh,
+    usethis,
+    assertr
+URL: https://github.com/GWCoders/studyGroup
+BugReports: https://github.com/GWCoders/studyGroup/issues

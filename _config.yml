@@ -1,11 +1,10 @@
 #Setup ~~~
 #Follow these 2 steps to set up your site.
+exclude: [".Rproj.user"]
 
-#Step 1: give your study group a name and a short description,
-#and choose a language from the options in the _data directory:
-title: Our Study Group
-description: "A study group."
-language: en
+#Step 1: give your study group a name and a short description:
+title: GW Coders
+description: "We are a group of students and researchers learning coding and data analytics skills and applying them in research projects."
 
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
@@ -18,20 +17,34 @@ language: en
 # Optional Configuration
 # None of these things need to be changed - but feel free!
 
-titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome To Our Study Group!"
+headlineSmall: "Welcome to the GW Coders Group!"
 headlineMain: "Let's Work Together"
+avatar: "img/logos/logo_icon_dark.png"
 
 # Setup Google Calendar
 # Usage:
-# 1. create a new google account; set the calendar to 'public' (see https://support.google.com/calendar/answer/37083?hl=en on how to do this)
+# 1. create a new google account; set the calendar to 'public'
 # 2. change 'USER' in the example urls below to the username of the google account you made for your calendar
 # 3. set calendar_on: True.
 
-calendar_on: False
-calendar_embed_url: "https://www.google.com/calendar/embed?src=USER@gmail.com"
-calendar_ical_url: "https://www.google.com/calendar/ical/USER@gmail.com/public/basic.ics"
+calendar_on: True
+calendar_embed_url: "https://www.google.com/calendar/embed?src=uoftcoders@gmail.com"
+calendar_ical_url: "https://www.google.com/calendar/ical/gwcoders@gwu.edu/public/basic.ics"
 
+# ===============================
+# Categories for sorting lessons.
+# ===============================
+
+languages:
+  - python
+  - r
+  - git
+  - misc
+
+levels:
+  - beginner
+  - intermediate
+  - advanced
 
 #========================================
 # No touching anything below this line :)
