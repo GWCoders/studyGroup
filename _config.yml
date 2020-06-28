@@ -4,7 +4,7 @@ exclude: [".Rproj.user"]
 
 #Step 1: give your study group a name and a short description:
 title: GW Coders
-description: "We are a study group for those who want to apply coding and data analytics in research projects. Share your favorite coding skills and tools with your friends and faculty in no-pressure work-alongs. Learn about new research projects that you can contribute to. Get together to collaborate on coding projects; helping each other out and sharing your work. Meet new people in your field and across the University -- and find out all that we can get done when we connect."
+description: "GW Coders is a study group that brings together students and faculty to apply computational and data analytics skills in research. Share your favorite coding skills and tools with your friends and faculty in no-pressure work-alongs. Learn about new research projects that you can contribute to. Get together to collaborate on coding projects; helping each other out and sharing your work. Meet new people in your field and across the University -- and find out all that we can get done when we connect."
 
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
