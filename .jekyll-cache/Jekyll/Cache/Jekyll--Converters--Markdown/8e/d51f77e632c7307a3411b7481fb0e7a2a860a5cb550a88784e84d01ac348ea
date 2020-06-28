@@ -1,0 +1,104 @@
+I"v<p>Lessons should be submitted as a Pull Request (PR) at least <em>one full day</em> before the
+session. Submitting the lessons as a Pull Request is also a great way to find
+out whether your lesson matches what is advertised in the Events repo. New lessons
+should be created from a copy of the <code class="language-plaintext highlighter-rouge">lessons/template/lesson.md</code> file. Follow the
+details and requests in the template lesson file and write up your lesson!</p>
+
+<p>Please follow the instructions below before submitting your PR:</p>
+
+<h2 id="brief-step-by-step">Brief step-by-step</h2>
+
+<ol>
+  <li>Fork the <code class="language-plaintext highlighter-rouge">studyGroup</code> repo</li>
+  <li>(Optional) <code class="language-plaintext highlighter-rouge">git clone</code> your forked version onto your computer</li>
+  <li>Use the lesson template and make your lesson</li>
+  <li>Follow the file/folder naming rules (see below)</li>
+  <li><code class="language-plaintext highlighter-rouge">git add</code> and <code class="language-plaintext highlighter-rouge">git commit</code> that lesson</li>
+  <li><code class="language-plaintext highlighter-rouge">git push</code> your lesson to your forked <code class="language-plaintext highlighter-rouge">studyGroup</code> repo</li>
+  <li>Submit a PR using Github’s Pull Request button on your forked version</li>
+</ol>
+
+<h2 id="detailed-step-by-step">Detailed step-by-step</h2>
+
+<ol>
+  <li>Fork the <code class="language-plaintext highlighter-rouge">studyGroup</code> into your GitHub account. See
+<a href="https://help.github.com/articles/fork-a-repo/">this GitHub help for info on forking</a>.</li>
+  <li>After it is forked, <code class="language-plaintext highlighter-rouge">git clone</code> from your terminal or Git Bash of your new
+forked version of <code class="language-plaintext highlighter-rouge">studyGroup</code> onto your computer <em>from your account</em>. If you
+want it on your Desktop do:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  cd Desktop
+  git clone https://github.com/YOUR-USERNAME/studyGroup.git
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>…replacing YOUR-USERNAME with your own user name on GitHub (eg: mine would
+  look like <code class="language-plaintext highlighter-rouge">git clone https://github.com/lwjohnst86/studyGroup.git</code>).</p>
+<ol>
+  <li>Type <code class="language-plaintext highlighter-rouge">ls</code> to confirm that the <code class="language-plaintext highlighter-rouge">studyGroup</code> folder was created. Then
+<code class="language-plaintext highlighter-rouge">cd studyGroup</code> and <code class="language-plaintext highlighter-rouge">git status</code> or <code class="language-plaintext highlighter-rouge">git log</code> to confirm that you are now in the
+new repo.</li>
+  <li>Add the original Study Group repo using this command:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git remote add upstream https://github.com/GWCoders/studyGroup.git
+  git fetch upstream
+</code></pre></div>    </div>
+  </li>
+  <li>Create a new folder in the <code class="language-plaintext highlighter-rouge">lessons</code> folder of <code class="language-plaintext highlighter-rouge">studyGroup</code> on your computer,
+naming it appropriately (without spaces) to the lesson you are planning on
+teaching. Files and folders should be named as such:
+    <ul>
+      <li>Create the lesson template under whichever programming language you are
+ teaching (e.g. under <code class="language-plaintext highlighter-rouge">lesson/r</code> or <code class="language-plaintext highlighter-rouge">lesson/python</code>.). Use the <code class="language-plaintext highlighter-rouge">misc/</code> folder
+ if you aren’t sure.</li>
+      <li>Name the new lesson folder, all small caps, so that it simply explains
+ what the topic is (e.g. <code class="language-plaintext highlighter-rouge">python/intro/</code>, <code class="language-plaintext highlighter-rouge">r/loops/</code>).</li>
+      <li>If you need more than one word, keep all small caps and use a dash (<code class="language-plaintext highlighter-rouge">-</code>)
+ for a space (e.g. <code class="language-plaintext highlighter-rouge">misc/bash-intro/</code>, <code class="language-plaintext highlighter-rouge">misc/jekyll-ghpages/</code>).</li>
+    </ul>
+  </li>
+  <li>
+    <p>Copy the <code class="language-plaintext highlighter-rouge">lessons/template/lesson.md</code> into the new folder and write up your
+lesson in there, filling out requested information. This is a
+<a href="https://help.github.com/articles/markdown-basics/">Markdown</a> file (<code class="language-plaintext highlighter-rouge">.md</code>).
+The reason it should be Markdown or plain text is because GitHub
+renders the Markdown file into HTML so it’s nicer to read on the site and for
+others.</p>
+  </li>
+  <li>Save the new file in the git history:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git add ./lessons/yourlesson/lesson.md
+  git commit -m "Added file on lesson"
+</code></pre></div>    </div>
+  </li>
+  <li>Push up to your GitHub repo:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git push origin gh-pages
+</code></pre></div>    </div>
+  </li>
+  <li>Submit a Pull Request <em>from</em> your GitHub account <em>into</em> the GW Coders.
+Make sure the <strong>base fork</strong> is set to <code class="language-plaintext highlighter-rouge">GWCoders/studyGroup</code> (and not <code class="language-plaintext highlighter-rouge">mozillascience/studyGroup</code>).
+Check <a href="https://help.github.com/articles/using-pull-requests/">the GitHub help on Pull Requests</a>.</li>
+</ol>
+
+<p><strong>Note</strong>: For those wanting to contribute regularly or who edit their
+repositories often, it’s best to create a new branch for each PR you make.  For
+example, if you want to clean up some bits of the repo, you can follow a
+workflow such as this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Good to name the branch to reflect what you are doing.
+git checkout -b cleaningUp
+## Make edits/changes/cleaning up
+git add files-changed
+git commit
+git push origin cleaningUp
+</code></pre></div></div>
+
+<p>You can now make a pull request <strong>of the <code class="language-plaintext highlighter-rouge">cleaningUp</code> branch</strong>.  Once the pull
+request has been completed, you can delete the now old branch via:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout gh-pages ## Move back to main branch
+git branch --delete cleaningUp
+## If you want to delete the remote branch too do:
+git push origin --delete cleaningUp
+## Update your main branch from the new upstream branch
+git pull upstream gh-pages
+</code></pre></div></div>
+:ET
