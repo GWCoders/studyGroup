@@ -4,7 +4,7 @@ exclude: [".Rproj.user"]
 
 #Step 1: give your study group a name and a short description:
 title: GW Coders
-description: "We are a group of students and researchers learning coding and data analytics skills and applying them in research projects."
+description: "We are a study group for those who want to apply coding and data analytics in research projects. Share your favorite coding skills and tools with your friends and faculty in no-pressure work-alongs. Learn about new research projects that you can contribute to. Get together to collaborate on coding projects; helping each other out and sharing your work. Meet new people in your field and across the University -- and find out all that we can get done when we connect."
 
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
@@ -19,7 +19,7 @@ description: "We are a group of students and researchers learning coding and dat
 
 headlineSmall: "Welcome to the GW Coders Group!"
 headlineMain: "Let's Work Together"
-avatar: "img/logos/logo_icon_dark.png"
+avatar: "img/logos/logo_icon.png"
 
 # Setup Google Calendar
 # Usage:
@@ -28,7 +28,7 @@ avatar: "img/logos/logo_icon_dark.png"
 # 3. set calendar_on: True.
 
 calendar_on: True
-calendar_embed_url: "https://www.google.com/calendar/embed?src=uoftcoders@gmail.com"
+calendar_embed_url: "https://www.google.com/calendar/embed?src=gwcoders@gwu.edu"
 calendar_ical_url: "https://www.google.com/calendar/ical/gwcoders@gwu.edu/public/basic.ics"
 
 # ===============================
