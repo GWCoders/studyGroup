@@ -1,17 +1,18 @@
 <!-- Events Grid Section -->
-    <section id="events" class="bg-light-gray">
+    <section id="events">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Events</h2>
-                    <h3 class="section-subheading text-muted">
-                    We meet every Friday at 11:00am in the <a href="https://newventurecompetition.gwu.edu/IEL">Innovation and Entrepreneurship Lab</a> at GWU (2000 Penn., 7th Floor) throughout the academic year. Light lunch is provided.<br><br>
-                    <b>NOTE: Due to COVID-19 concerns, GW Coders will not be meeting until the University has returned to normal operations.</b><br><br>
-                    Unless otherwise stated, <b> all our events are open to everyone </b> (i.e. no registration necessary, just show up!). A list of all previous events and sessions can be found on the <a href="{{ site.github.url | replace:'http:','https:' }}/past-events/">"Past Events" page</a>.
-                    </h3>
                 </div>
-            </div>
-            <div class="col-lg-12">
+              <div class="col-lg-6">
+                <h3>Regular meetups</h3>
+                <h3 class="section-subheading text-muted">
+                <b>NOTE: Due to COVID-19 concerns, GW Coders will not be meeting until the University has returned to normal operations.</b><br><br>
+                We meet every Friday at 11:00am in the <a href="https://newventurecompetition.gwu.edu/IEL">Innovation and Entrepreneurship Lab</a> at GWU (2000 Penn., 7th Floor) throughout the academic year. Light lunch is provided.<br><br>
+                Unless otherwise stated, <b> all our events are open to everyone </b> (i.e. no registration necessary, just show up!). A list of all previous events and sessions can be found on the <a href="{{ site.github.url | replace:'http:','https:' }}/past-events/">"Past Events" page</a>.
+                </h3>
+              <h3>Upcoming events</h3>
               <ul class='events'>
               {% assign isEvent = 0 %}
               {% for post in site.posts reversed %}
@@ -42,14 +43,12 @@
               </ul>
             </div>
             <div class="col-lg-6">
-            <h3 class="section-heading eventInstructions">Want to be notified of our upcoming events?</h3>
-            <h3 class="section-subheading text-muted eventSubinstructions">Head over to <a href="{{ site.github.owner_url }}/Events">GitHub</a> and watch our repository, like this:</h3>
+            <h3>Want to be notified of our upcoming events?</h3>
+            <h3 class="section-subheading text-muted eventSubinstructions">Head over to our <a href="{{ site.github.owner_url }}/Events">Events repo</a> and click on 'Watching' in the top right-hand corner (you can undo this at any time):</h3>
             <figure>
               <img src="https://help.github.com/assets/images/help/notifications/watch-repository.png" width="80%"></img>
-              <figcaption>Look in the top right-hand corner of <a href="{{ site.github.owner_url }}/Events">our repo</a>, and click 'Watching.' <br>You can undo this at any time in the same place.</figcaption>
             </figure>
             </div>
-            <div class="col-lg-6">
-            <img src="img/icon_puzzle.png" width="400">
-            </div>
+          </div>
+        </div>
     </section>
