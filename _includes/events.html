@@ -30,7 +30,7 @@
                 {% endif %}
               {% endfor %}
               {% if isEvent == 0 %}
-                <a class='eventTitle' href="{{ site.github.issues_url }}">Nothing yet! Propose an event here.</a>
+                <a class='eventTitle' href="{{ site.github.owner_url }}/Events/issues">Nothing yet! Propose an event here.</a>
               {% else %}
               <div class="row">
                     <div class="col-lg-12 text-center">
@@ -41,17 +41,15 @@
               {% endif %}
               </ul>
             </div>
-            {% if site.calendar_on %}
             <div class="col-lg-6">
-            {% else %}
-            <div class="col-lg-12">
-            {% endif %}
-              <h3 class="section-heading eventInstructions">Want to be notified of our upcoming events?</h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">Head over to <a href="{{ site.github.owner_url }}/Events">GitHub</a> and watch our repository, like this:</h3>
-              <figure>
-                <img src="https://help.github.com/assets/images/help/notifications/watch-repository.png" width="80%"></img>
-                <figcaption>Look in the top right-hand corner of <a href="{{ site.github.owner_url }}/Events">our repo</a>, and click 'Watching.' <br>You can undo this at any time in the same place.</figcaption>
-              </figure>
+            <h3 class="section-heading eventInstructions">Want to be notified of our upcoming events?</h3>
+            <h3 class="section-subheading text-muted eventSubinstructions">Head over to <a href="{{ site.github.owner_url }}/Events">GitHub</a> and watch our repository, like this:</h3>
+            <figure>
+              <img src="https://help.github.com/assets/images/help/notifications/watch-repository.png" width="80%"></img>
+              <figcaption>Look in the top right-hand corner of <a href="{{ site.github.owner_url }}/Events">our repo</a>, and click 'Watching.' <br>You can undo this at any time in the same place.</figcaption>
+            </figure>
             </div>
-        </div>
+            <div class="col-lg-6">
+            <img src="img/icon_puzzle.png" width="400">
+            </div>
     </section>

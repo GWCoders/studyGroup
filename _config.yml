@@ -21,16 +21,6 @@ headlineSmall: "Welcome to the GW Coders Group!"
 headlineMain: "Let's Work Together"
 avatar: "img/logos/logo_icon.png"
 
-# Setup Google Calendar
-# Usage:
-# 1. create a new google account; set the calendar to 'public'
-# 2. change 'USER' in the example urls below to the username of the google account you made for your calendar
-# 3. set calendar_on: True.
-
-calendar_on: True
-calendar_embed_url: "https://www.google.com/calendar/embed?src=gwcoders@gwu.edu"
-calendar_ical_url: "https://www.google.com/calendar/ical/gwcoders@gwu.edu/public/basic.ics"
-
 # ===============================
 # Categories for sorting lessons.
 # ===============================
