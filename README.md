@@ -1,20 +1,19 @@
-GW Coders Mozilla Study Group
-============
+# GW Coders Study Group
 
-Welcome to [Mozilla Science Lab](https://www.mozillascience.org/)'s Study Group project! From here, we'll set you up with everything you need to start your own study group.
+Welcome to the GW Coder's Study Group website. These pages are built using [Mozilla's science Lab Study Groups](https://github.com/mozillascience/studyGroup/). 
 
 ### Wait What's a 'Mozilla Study Group'?
 
-Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
+Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories, and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
 
 ## For Participants
 
-Welcome to our Mozilla Study Group! A few things to do & know now that you're here:
+A few things to do & know now that you're here:
 
  - **Watch the [Events](https://github.com/GWCoders/Events) repo and/or this repo:** up in the top right, there's a button that says 'Watch'; click it, and set yourself to 'Watching'. This will send you email notifications of new discussions. If you only want to be notified about events (and not any other discussion topics), watch just the [Events](https://github.com/GWCoders/Events) repo. If you want to stay updated on all group doings, watch this repo AND the Events repo. If you don't want email, but would like an alert just on GitHub, change the setting in Settings -> Notification Center (Settings is the little cog in the top right).
  - **Check out the issue tracker:** click on 'issues' in the sidebar on the right; this is where all the conversations this study groups is having live. Use this space to ask questions, request events, make suggestions, or just say hi.
  - **Read the code of conduct:** this Study Group is for everyone - we abide by a [set of rules](https://www.mozillascience.org/code-of-conduct/) that require everyone be treated with respect. Help us make a space where everyone feels welcome, and we'll all have a better time!
- - **Add yourself to the website:** If you'd like to appear on the website under the 'Who we Are' section, have a look at the `_data/members.yml`; send us a pull request with an entry for yourself, or open an issue and we'll do it for you.
+ - **Add yourself to the website:** If you'd like to appear on the website under the 'Who we Are' section, have a look at the `_data/contributors.yml` file; send us a pull request with an entry for yourself, or [open an issue](https://github.com/GWCoders/studyGroup/issues/new) and we'll add you :).
 
 ## For Organizers/Instructors
 
@@ -22,7 +21,7 @@ Check out the [`CONTRIBUTING` file](https://github.com/GWCoders/studyGroup/blob/
 
 ### It's Broken, I Need Help
 
-If anything in these instructions doesn't work or doesn't make sense, open an issue [here](https://github.com/mozillascience/studyGroup/issues) or email sciencelab@mozillafoundation.org.
+If anything in these instructions doesn't work or doesn't make sense, [open an issue](https://github.com/GWCoders/studyGroup/issues/new) or email us at gwcoders@gwu.edu.
 
 ### Check out the Handbook
 
@@ -30,9 +29,9 @@ The instructions below will help you set up the online tools for your Mozilla St
 
 ## How to Set Up Your Own Mozilla Study Group Website
 
-Everything you need to set up your own Mozilla Study Group website for organizing events is right here - follow the following steps and you'll be up and running soon, and if you have trouble, [open an issue](https://github.com/mozillascience/studyGroup/issues) and we'll help you out!
+Everything you need to set up your own Mozilla Study Group website for organizing events is right here - follow the following steps and you'll be up and running soon, and if you have trouble, [open an issue](https://github.com/GWCoders/studyGroup/issues/new) and we'll help you out!
 
- 1. **Make yourself an account on GitHub.** The free one is just fine.
+ 1. **Make yourself an account on GitHub.** The free one is just fine :)
  2. **Fork this repository.** Up in the top right corner of this page, there's a button that says 'Fork'; press it! This makes your very own copy of all this stuff in your space on GitHub; when the copy is done, GitHub will automatically take you there.
  3. **Turn on the Issue Tracker.** An issue tracker is a message board GitHub sets up for every repository; you'll use it to post information about your event and talk to your participants. To turn it on:
    - click on 'Settings' in the right sidebar of your repo;
@@ -44,7 +43,7 @@ Everything you need to set up your own Mozilla Study Group website for organizin
    - follow the instructions in the file on how to edit it;
    - when you're done, press the green 'Commit Changes' button at the bottom of the page.
 
-That's it, you're done! You can see your new website at `https://yourUserName.github.io/studyGroup/`, where `yourUserName` is the user name you signed up for GitHub with. If this is your first time making a webpage on GitHub, it might take 30 minutes for things to percolate through their computers - don't worry, it's all good, check back later and your website should be up and running.
+That's it, you're done! You can see your new website at `https://yourUserName.github.io/studyGroup/`, where `yourUserName` is the user name you signed up for GitHub with. If this is your first time making a webpage on GitHub, it might take up to 30 minutes for things to percolate through their computers - don't worry, it's all good, check back later and your website should be up and running.
 
 ### Optional: Setting up a Google Calendar for your Study Group
 
