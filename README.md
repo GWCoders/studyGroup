@@ -1,6 +1,6 @@
 # GW Coders Study Group
 
-Welcome to the GW Coder's Study Group website. These pages are built using [Mozilla's science Lab Study Groups](https://github.com/mozillascience/studyGroup/). 
+Welcome to the GW Coder's Study Group website. These pages are built using [Mozilla's science Lab Study Groups](https://github.com/mozillascience/studyGroup/).
 
 ### Wait What's a 'Mozilla Study Group'?
 
@@ -13,7 +13,11 @@ A few things to do & know now that you're here:
  - **Watch the [Events](https://github.com/GWCoders/Events) repo and/or this repo:** up in the top right, there's a button that says 'Watch'; click it, and set yourself to 'Watching'. This will send you email notifications of new discussions. If you only want to be notified about events (and not any other discussion topics), watch just the [Events](https://github.com/GWCoders/Events) repo. If you want to stay updated on all group doings, watch this repo AND the Events repo. If you don't want email, but would like an alert just on GitHub, change the setting in Settings -> Notification Center (Settings is the little cog in the top right).
  - **Check out the issue tracker:** click on 'issues' in the sidebar on the right; this is where all the conversations this study groups is having live. Use this space to ask questions, request events, make suggestions, or just say hi.
  - **Read the code of conduct:** this Study Group is for everyone - we abide by a [set of rules](https://www.mozillascience.org/code-of-conduct/) that require everyone be treated with respect. Help us make a space where everyone feels welcome, and we'll all have a better time!
- - **Add yourself to the website:** If you'd like to appear on the website under the 'Who we Are' section, have a look at the `_data/contributors.yml` file; send us a pull request with an entry for yourself, or [open an issue](https://github.com/GWCoders/studyGroup/issues/new?assignees=jhelvy&labels=new+member+request&template=new-member-request.md&title=New+member+request) and we'll add you :).
+
+## How do I get involved?
+
+- You can get started by attending an upcoming [Events](https://github.com/GWCoders/Events). We hold regular meetings on Fridays at 11am.
+- **Add yourself to the website:** If you'd like to appear on the website under the 'Who we Are' section, have a look at the `_data/contributors.yml` file - we can add you there. Just [open an issue](https://github.com/GWCoders/studyGroup/issues/new?assignees=jhelvy&labels=new+member+request&template=new-member-request.md&title=New+member+request) and we'll add you :).
 
 ## For Organizers/Instructors
 
