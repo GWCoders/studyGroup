@@ -379,7 +379,7 @@ section h3.section-subheading {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 #what-we-do .what-we-do-item .what-we-do-link .what-we-do-hover {
