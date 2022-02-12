@@ -10,6 +10,15 @@ body {
     color: #{{ site.color.secondary-dark }};
 }
 
+
+@media(max-width:767px) {
+    body {
+    width: 100%;
+}
+}
+
+
+
 .text-muted {
     color: #777;
 }
