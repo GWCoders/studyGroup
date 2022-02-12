@@ -260,7 +260,7 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
     }
 body {
-    width:5000px;
+    width:500px !important;
 }
     .navbar-default .navbar-brand {
         font-size: 2.5em;
