@@ -363,6 +363,10 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+    #what-we-do .what-we-do-item .what-we-do-link {
+
+    max-width: 100%;
+}
 }
 
 .what-we-do-heading {
@@ -379,7 +383,7 @@ section h3.section-subheading {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 400px;
 }
 
 #what-we-do .what-we-do-item .what-we-do-link .what-we-do-hover {
